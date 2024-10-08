@@ -1,0 +1,22 @@
+button{
+    background: green;
+    color: white;
+}
+
+#para1{
+    color: honeydew;
+    background-color: yellow;
+}
+
+#para2{
+    color: orange;
+    background-color: green;
+}
+
+.class1{
+    color: red;
+}
+
+.class2{
+    color: blueviolet;
+}

@@ -1,0 +1,40 @@
+.main{
+    width: 900px;
+    height: 800px;
+    background-color: red;
+    padding-top: 100px;
+}
+
+.div1{
+    background: green;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    
+}
+.div2{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.div3{
+    background: blueviolet;
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: -700px;
+    
+
+}
+.div4{
+    background: yellow;
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 100px;
+
+
+}
