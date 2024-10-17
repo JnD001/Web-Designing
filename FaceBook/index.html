@@ -40,70 +40,70 @@
             <div class="right-section">
                 <h1 class="acc-head">Create an account</h1>
                 <p class="right-head-para">It's quick and easy.</p>
-                <form action="">
-                    <input class="form" type="text" placeholder="First name">
-                    <input class="form" type="text" placeholder="Surname">
+                <form id="signup-form">
+                    <input name="fname" class="form" type="text" placeholder="First name">
+                    <input name="sname" class="form" type="text" placeholder="Surname">
 
-                    <input class="form-p2" type="text" placeholder="Mobile number or email address">
-                    <input class="form-p2" type="text" placeholder="New password"><br>
+                    <input name="emailAddress" class="form-p2" type="email" placeholder="Email address">
+                    <input name="password" class="form-p2" type="text" placeholder="New password"><br>
                     <h3 class="title">Birthday</h3>
-                    <div class="b-date">
-                        <select class="select">
+                    <div class="b-date" >
+                        <select class="select" name="day">
                             <option value="">Day</option>
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                            <option value="">6</option>
-                            <option value="">7</option>
-                            <option value="">8</option>
-                            <option value="">9</option>
-                            <option value="">10</option>
-                            <option value="">11</option>
-                            <option value="">12</option>
-                            <option value="">13</option>
-                            <option value="">14</option>
-                            <option value="">15</option>
-                            <option value="">16</option>
-                            <option value="">17</option>
-                            <option value="">18</option>
-                            <option value="">19</option>
-                            <option value="">20</option>
-                            <option value="">21</option>
-                            <option value="">22</option>
-                            <option value="">23</option>
-                            <option value="">24</option>
-                            <option value="">25</option>
-                            <option value="">26</option>
-                            <option value="">27</option>
-                            <option value="">28</option>
-                            <option value="">29</option>
-                            <option value="">30</option>
-                            <option value="">31</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
                         </select>
-                        <select class="select">
+                        <select class="select" name="month">
                             <option value="">Month</option>
-                            <option value="">Jan</option>
-                            <option value="">Feb</option>
-                            <option value="">Mar</option>
-                            <option value="">Apr</option>
-                            <option value="">May</option>
-                            <option value="">Jun</option>
-                            <option value="">Jul</option>
-                            <option value="">Aug</option>
-                            <option value="">Sep</option>
-                            <option value="">Oct</option>
-                            <option value="">Nov</option>
-                            <option value="">Dec</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
                         </select>
-                        <select class="select">
+                        <select class="select" name="year">
                             <option value="">Year</option>
-                            <option value="">1995</option>
-                            <option value="">1996</option>
-                            <option value="">1997</option>
-                            <option value="">1998</option>
-                            <option value="">1999</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
                             <option value="">2000</option>
                             <option value="">2001</option>
                             <option value="">2002</option>
@@ -146,8 +146,11 @@
                     <a class="link" href="cookie.html">Cookie Policy.</a>You may receive SMS notification us and <br> can opt out us any time</p>
                     <input class="sign-btn" type="submit" value="Sign Up">
                 </form>
-            </div>
+            </div>   
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
